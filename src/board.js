@@ -20,7 +20,8 @@ const Board = () => {
         const corySquares = [...square]
         corySquares[idx] = nextPlayer(square)
         setSquare(corySquares)
-        setHistory( [...history,`сделал ход ${nextPlayer(square)} по ячейке ${idx + 1}`])
+        setHistory([...history,`сделал ход ${nextPlayer(square)} по ячейке ${idx + 1}`])
+        setHistory([])
     }
 
     const nextPlayer = (square) => {
