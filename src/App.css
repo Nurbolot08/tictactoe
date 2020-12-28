@@ -4,6 +4,7 @@
   display: flex;
   flex-wrap: wrap;
   margin: 50px auto;
+  box-shadow: 10px 10px black;
 }
 
 .board-box button{
@@ -19,14 +20,14 @@
 }
 
 .result{
-  margin-top: 20px;
+  margin-top: 40px;
   width: 100%;
   padding: 10px;
   border: 2px inset blue;
 }
 
 .reset{
-  margin-top: 20px;
+  margin-top: 40px;
   background: yellow;
   width: 100px;
   height: 50px;
@@ -38,4 +39,14 @@
 
 .green{
   background: green;
+}
+
+.history-board{
+  box-shadow: 10px 10px #000000;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  height: 200px;
+  border: 1px solid black;
+  margin: -400px 0 0 200px;
 }
